@@ -2,7 +2,7 @@ import {add,pi} from './math.js';
 //const demo=require('./math.js');//not require to add "type": "module" in package.js 
 console.log(add(3,2));
 console.log(pi);
-
+// new comment
 // // console.log(demo.add(3,2));
 // // console.log(demo.pi);
 
