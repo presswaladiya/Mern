@@ -1,5 +1,7 @@
 const express=require("express");
+const cors=require("cors");
 const app=express();
+app.use(cors());
 app.use(express.json());
 
 const insuser=require("./ins");
@@ -12,5 +14,5 @@ app.use('/',deluser);
 app.use('/',uptuser);
 app.use('/',viewuser);
 
-app.listen(3000,()=>console.log("Port is: http://localhost:3000"))
+app.listen(5000,()=>console.log("Port is: http://localhost:5000"))
 

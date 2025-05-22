@@ -7,7 +7,7 @@ router.post("/ins",async(req,res)=>{
     const collection=await run();
     info=req.body;
     await collection.insertMany(info);
-    res.json({use:info});
+    res.json({user:info});
 
 })
 module.exports=router;
